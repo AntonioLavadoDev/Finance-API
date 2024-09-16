@@ -1,0 +1,56 @@
+# Ayuda generada automáticamente
+HELP.md
+
+# Ignorar directorios de compilación
+/target/
+build/
+
+# Mantener algunos archivos necesarios para la configuración de Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Asegurar que no se ignoren los directorios "target" o "build" dentro de src (si es necesario)
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Configuraciones generadas por herramientas de desarrollo
+
+### Spring Tool Suite (STS) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# Ignorar archivos de configuración sensibles (credenciales, contraseñas, etc.)
+/src/main/resources/application.properties
+/src/main/resources/application.yml
+/src/test/resources/application-test.properties
+/src/test/resources/application-test.yml
+
+# Ignorar archivos y logs generados
+.mvn/
+*.log
+
+# Ignorar archivos de entorno local (por ejemplo, variables de entorno)
+/.env
+
